@@ -13,6 +13,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <style>
+  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
   html {
     scroll-behavior: smooth;
   }
@@ -24,11 +25,11 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 {
-    background-color:#1e1e1e; /* Green */
+    background-color:#1e1e1e; /* black */
     color: #ffffff;
   }
   .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
+    background-color: #474e5d; /* grey */
     color: #ffffff;
   }
   .bg-3 {
@@ -36,7 +37,7 @@
     color: #555555;
   }
   .bg-4 {
-    background-color: #2f2f2f; /* Black Gray */
+    background-color: #1e1e1e; /* Black Gray */
     color: #fff;
   }
   .container-fluid {
@@ -55,7 +56,7 @@
     color: #555555;
   }
   .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #79d70f !important;
   }
   .fa {
     padding: 20px;
@@ -104,11 +105,40 @@
     text-align: left;
     font-size: 150%
   }
+
   p.about{
     font-family: monospace;
     text-align: left;
   }
+  .wrapper {
+  height: 10vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.typing-demo {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-family: monospace;
+  font-size: 1em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+@keyframes blink {
+  30% {
+    border-color: transparent
+  }
+}
   </style>
 </head>
 <body>
@@ -122,13 +152,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><b>Liju Daniel ❤</b></a>
+      <a class="navbar-brand" href="#"><b>Liju Daniel 🤍</b></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#section1">whoami</a></li>
         <li><a href="#section2">man -l me</a></li>
-        <li><a href="#section3">ls gallery</a></li>
+        <li><a href="#section3">ls myspace</a></li>
         <li><a href="#section4">more contact.txt</a></li>
       </ul>
     </div>
@@ -138,7 +168,7 @@
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center" id="section1">
   <img src="images/liju.png" class="img-responsive img-circle margin" style="display:inline" alt="Liju" width="350" height="350" align="right">
-  <p class="title"><b>Hey!😄<br />I'm Liju Daniel💙<br />A Computer Science Student👨🏾‍🎓 and<br />a Smartphone Wizard.📱‍ Cricket is ❤.</b><br />
+  <p class="title"><b>Hey!😄<br />I'm Liju Daniel💙<br />A Computer Science Student👨🏾‍🎓 and<br />a Smartphone Wizard.📱‍ Cricket is 🤍.</b><br />
 <br />
 Check me out!😉<br />
 <a href="#section2" class="btn btn-default">
@@ -146,15 +176,19 @@ Check me out!😉<br />
 </a>
 <a href="https://twitter.com/lijudaniel5" class="fa fa-twitter"></a>
     <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram"></a>
-    <a href="#" class="fa fa-google"></a>
+    <a href="https://open.spotify.com/playlist/2UkrSUrObzqzqFVrJ4zMXZ?si=u-4Y8SUqTkq1-4hZQSFl0w&utm_source=copy-link" class="btn btn-default">
+      <span class="glyphicon glyphicon-music	"></span> My Playlist
+    </a>
+    <a href="mailto:lijudaniel73@gmail.com" class="fa fa-google"></a>
+    <a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost"></a>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center" id="section2">
-  <h3 class="margin"><b>About me</b></h3>
+  <h3 class="margin"><b>About me💚</b></h3>
 <p class="about"><span style="color:#79d70f;font-weight:bold">root@liju:~$</span> whoami<br />Liju Daniel<br />
 <span style="color:#79d70f;font-weight:bold">root@liju:~$</span> cat about_me.txt<br />
-A Minimalist, Creative UI Designer And An Aspiring Ethical Hacker. Pursuing My Bachelor Of Engineering In Computer Science.
+A Minimalist, Creative UI Designer And An Aspiring Ethical Hacker. Pursuing My Bachelor Of Engineering degree in Computer Science at SKCET, Coimbatore.
 An Intermediate In Python And Dart. A Flutter N00b And A Freaking Crazy Smartphone Lover.<br />
 <span style="color:#79d70f;font-weight:bold">root@liju:~$</span> cat skills.txt<br />
 Flutter ☆☆<br />Adobe XD ☆☆☆☆<br />HTML,CSS and Bootstrap ☆☆☆<br />Python and C ☆☆☆<br />
@@ -169,18 +203,18 @@ Flutter ☆☆<br />Adobe XD ☆☆☆☆<br />HTML,CSS and Bootstrap ☆☆☆<
 
 <!-- Third Container (Grid) -->
 <div class="container-fluid bg-3 text-center" id="section3">
-  <h3 class="margin"><b>Articles</b></h3><br>
+  <h3 class="margin"><b>My Space🌌</b></h3><br>
   <div class="row">
     <div class="col-sm-4">
       <p>Completion of <b>Introduction to Flutter Development Using Dart</b> course. Not a big one but still this hits different.😌</p>
-      <img src="images/flutter.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <img src="images/flutterz.png" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
     <div class="col-sm-4">
       <p>My previous Instagram post.🏃🏾‍♂️</p>
-      <img src="images/insta.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+      <a href="https://www.instagram.com/p/CN1-WwesVHL6-9zLLThcV0A0vH0NSeF3SJXF5k0/?utm_medium=copy_link"><img src="images/insta.jpg" class="img-responsive margin" style="width:100%" alt="Image"></a>
     </div>
     <div class="col-sm-4">
-      <p><b>ONEPLUS 8T Short Review:</b> NOT A ONEPLUS PHONE FOR REAL!😩<br />Will post a full article soon.🤗
+      <p><b>ONEPLUS 8T Short Review:</b> NOT A ONEPLUS PHONE FOR REAL!😩<br />Will post a full article soon.🤗<br /><br />
          </p>
       <img src="images/oneplus.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
@@ -196,15 +230,19 @@ Flutter ☆☆<br />Adobe XD ☆☆☆☆<br />HTML,CSS and Bootstrap ☆☆☆<
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center" id="section4">
-  <h2>Wanna Contact?📞</h2><br />
-  <a href="tel:8870606935" class="btn btn-default" role="button">Make a Call📲</a><br /><br />
+  <h2 style="margin-left:1em"> Wanna Contact?📞</h2><br />
+
+  <a href="tel:8870606935" class="btn btn-default" role="button">Make a Call📲</a>
+  <a href="https://www.mediafire.com/view/c2f16vb57zftgs1/resume.png/file" class="btn btn-default">
+    <span class="glyphicon glyphicon-cloud-download	"></span> My Resume
+  </a><br /><br />
 
 <a href="https://www.facebook.com/people/Liju-Daniel/100008322639223/" class="fa fa-facebook"></a>
 <a href="https://twitter.com/lijudaniel5" class="fa fa-twitter"></a>
 <a href="mailto:lijudaniel73@gmail.com" class="fa fa-google"></a>
 <a href="https://www.youtube.com/channel/UCDGvHvNHyxt6-cuCXAmTOxw/videos" class="fa fa-youtube"></a>
 <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram"></a>
-<a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost"></a>
+<a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost"></a><br />
 <p><br />Made with 💙 by <a href="#">Liju Daniel</a></p><br />
   <p><a href="#" class="btn btn-default" role="button">Go back to Top</a></p>
 </footer>
