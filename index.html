@@ -110,35 +110,11 @@
     font-family: monospace;
     text-align: left;
   }
-  .wrapper {
-  height: 10vh;
-  /*This part is important for centering*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.typing-demo {
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 1px solid;
-  font-family: monospace;
-  font-size: 1em;
-}
-
-@keyframes typing {
-  from {
-    width: 0
+ 
+  ::selection {
+  background-color: #555555;
+  color: #79d70f;
   }
-}
-
-@keyframes blink {
-  30% {
-    border-color: transparent
-  }
-}
   </style>
 </head>
 <body>
