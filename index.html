@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/87f63208cd.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
@@ -45,15 +46,15 @@
     color: #ffffff;
   }
   .bg-2 {
-    background-color: #000000; /* grey */
+    background-color:#000000; /* grey */
     color: #ffffff;
   }
   .bg-3 {
     background-color: #1e1e1e; /* White */
-    color: #555555;
+    color: #ffffff;
   }
   .bg-4 {
-    background-color: #1e1e1e; /* Black Gray */
+    background-color: #141414; /* Black Gray */
     color: #fff;
   }
   .container-fluid {
@@ -77,7 +78,8 @@
   .fa {
     padding: 20px;
     font-size: 20px;
-    width: 60px;
+    height: 60px;
+    width: 62px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -128,22 +130,23 @@
     text-align: left;
     font-weight:normal
   }
+  p.links{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    font-weight:bold;
+  }
+
   ::selection {
-   background-color: #555555;
-  color: #79d70f;
+   background-color: #ffffff;
+  color: #fa1e0e;
   }
   ::-moz-selection {
-  background-color: #555555;
-  color: #79d70f;
+  background-color: #ffffff;
+  color: #fa1e0e;
   }
   ::-webkit-selection {
-  background-color: #555555;
-  color: #79d70f;
-  }
-  h2{
-    font-family:"Courier New";
-    text-align: "center";
-    margin-left: "10em";
+  background-color: #ffffff;
+  color: #fa1e0e;
   }
 
 .button{
@@ -214,7 +217,37 @@
         content: '💜';
     }
 }
+.scroll4::-webkit-scrollbar {
+  width: 10px;
+}
 
+.scroll4::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+.scroll4::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: blue orange;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #1e1e1e;
+  border-radius: 20px;
+  border: 3px red;
+}
 
   </style>
 </head>
@@ -229,12 +262,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="https://lijuudaniel.github.io/search/" style="font-family: 'Pacifico', cursive;font-size: 250%"><b>Liju Daniel <span class="emoji hearts" role="img" aria-label="hearts"></b></a>
+      <a class="navbar-brand" href="https://lijuudaniel.github.io/search/" style="font-family: 'Pacifico', cursive;font-size: 250%"><b><span style="color:#fa1e0e;font-weight:bold">{</span> Liju Daniel <span style="color:#fa1e0e;font-weight:bold">}</span></b></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#section1">whoami</a></li>
         <li><a href="#section2">man -l me</a></li>
+
         <li><a href="#section4">more contact.txt</a></li>
         <li><a href="https://lijuudaniel.github.io/resume/">lynx resume.html</a></li>
       </ul>
@@ -244,18 +278,18 @@
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center" id="section1">
-  <img src="images/redme.png" class="img-responsive img-circle margin" style="display:inline" alt="Liju" width="350" height="350" align="right">
-  <p class="title" ><b>Hey! I'm Liju Daniel.</span><br />
-    <span style="color:#cac7c0;font-weight:normal;font-size:70%">A Minimalist, Creative UI Designer and a Newbie to Coding Stuff.<br /> I am an ardent Developer and a Linux N00b🐧.<br />Apart from tech, I love Food🍕 and Smartphones are ❤️.
+  <img src="images/redme3.png" style="display:inline" alt="Liju" width="350" height="350" align="right">
+  <p class="title" ><b>Hey! I'm Liju Daniel.</b><br />
+    <span style="color:#cac7c0;font-weight:normal;font-size:70%">A Minimalist, Creative UI Designer and a Newbie to Coding Stuff.<br /> I am an ardent Web Designer and a Linux N00b🐧.<br />Apart from Tech, I love Food🍕 and Smartphones are ❤️.
     <br />Check me out!<span class="emoji hourglass" role="img" aria-label="hourglass"></span><br /></span>
 
-<a href="https://lijuudaniel.github.io/search/" class="btn btn-default" style="border-radius: 100px; font-family:monospace;font-weight:bold">
-  <span class="glyphicon glyphicon-user	"></span> About me
+<a href="https://lijuudaniel.github.io/search/" class="btn btn-default" style="border-radius: 100px;font-family: 'Ubuntu Mono', monospace;font-weight:bold">
+  <i class="fas fa-search"></i> About me
 </a>
 <a href="https://twitter.com/lijudaniel5" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
     <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-    <a href="https://open.spotify.com/playlist/2UkrSUrObzqzqFVrJ4zMXZ?si=u-4Y8SUqTkq1-4hZQSFl0w&utm_source=copy-link" class="btn btn-default" target="_blank" style="border-radius: 100px; font-family:monospace;font-weight:bold">
-      <span class="glyphicon glyphicon-music	"></span> My Playlist
+    <a href="https://open.spotify.com/playlist/2UkrSUrObzqzqFVrJ4zMXZ?si=u-4Y8SUqTkq1-4hZQSFl0w&utm_source=copy-link" class="btn btn-default" target="_blank" style="border-radius: 100px;font-family: 'Ubuntu Mono', monospace; font-weight:bold">
+       <i class="fab fa-spotify"></i>&ensp;My Playlist
     </a>
     <a href="mailto:lijudaniel73@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a>
     <a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost" target="_blank" rel="noopener noreferrer"></a>
@@ -264,7 +298,7 @@
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center" id="section2">
-  <h3 class="margin"><b>About me 📕</b></h3>
+  <h3 class="margin"><b>About Me&ensp;<i class="fas fa-address-card" style="color:#fa1e0e;"></i></b></h3>
 <p class="about"><span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> whoami<br />Liju Daniel<br />
   <span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> thissite --help<br />
   This is my personal website with very basic info about me. I've made this About me section to look
@@ -273,7 +307,7 @@
 <span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> more about_me.txt<br />
 Pursuing My Bachelor Of Engineering degree in Computer Science at SKCET, Coimbatore. I am a Pro Wrestling Fanatic and an Audiophile.<br />I love food 🍕 and Gordon Ramsay is 👑. To check out my CV, visit: <a href="https://lijuudaniel.github.io/resume/" style="color: white">https://lijuudaniel.github.io/resume/</a><br />
 <span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> cat skills.txt<br />
-Flutter ☆☆<br />Adobe XD ☆☆☆<br />HTML,CSS and Bootstrap ☆☆☆<br />Python and C ☆☆☆<br />
+Flutter <span style="color:#fa1e0e;font-weight:bold">☆☆</span><br />Adobe XD <span style="color:#fa1e0e;font-weight:bold">☆☆☆</span><br />HTML,CSS and Bootstrap <span style="color:#fa1e0e;font-weight:bold">☆☆☆</span><br />Python and C <span style="color:#fa1e0e;font-weight:bold">☆☆☆</span><br />
 <span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> cat hobbies.txt<br />
 ⭐App Development<br />⭐Tech Blogging<br />⭐Playing with random Linux Distros<br />
 <span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> cat interests.txt<br />
@@ -282,8 +316,9 @@ Flutter ☆☆<br />Adobe XD ☆☆☆<br />HTML,CSS and Bootstrap ☆☆☆<br 
 
 
 </p>
+
 <a href="#section4" class="btn btn-default" style="border-radius: 100px;">
-  <span class="glyphicon glyphicon-envelope	 "></span><b>&emsp;Contact Me</b>
+  <i class="fas fa-address-card"></i><b>&ensp;Contact Me</b>
 </a>
 </div>
 
@@ -293,11 +328,10 @@ Flutter ☆☆<br />Adobe XD ☆☆☆<br />HTML,CSS and Bootstrap ☆☆☆<br 
 
 <footer class="container-fluid bg-4 text-center" id="section4">
 
-  <h2 style="font-family: 'Open Sans', sans-serif;"><b>&emsp;Wanna Contact?☎️</b></h2><br />
-
-  <a href="tel:8870606935" class="btn btn-default" role="button" style="border-radius: 100px;"><b>Make a Call 📲</b></a>&ensp;
+  <h2 style="font-family: 'Open Sans', sans-serif;"><b>&emsp;Wanna Contact?&ensp;<i class="fas fa-phone-alt" style="color:#fa1e0e;"></i></b></h2><br />
+  <a href="tel:8870606935" class="btn btn-default" role="button" style="border-radius: 100px;"><b><i class="fas fa-phone-alt"></i>&ensp;Make a Call</b></a>&ensp;
   <a href="https://www.mediafire.com/file/koemtnlm02tm7g1/Liju.pdf/file" class="btn btn-default" target="_blank" role="button" style="border-radius: 100px;">
-    <b><span class="emoji inbox" role="img" aria-label="inbox tray"></span> My Resume</b></a>
+    <b><i class="fas fa-download"></i>&ensp;My Resume</b></a>
 
   <br /><br />
 
@@ -307,9 +341,9 @@ Flutter ☆☆<br />Adobe XD ☆☆☆<br />HTML,CSS and Bootstrap ☆☆☆<br 
 <a href="https://www.youtube.com/channel/UCDGvHvNHyxt6-cuCXAmTOxw/videos" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a>
 <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
 <a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost" target="_blank" rel="noopener noreferrer"></a><br />
-<p><br />Made with <span class="emoji hearts" role="img" aria-label="hearts"></span> by <a href="#" style="color: #fa1e0e">Liju Daniel</a></p><br />
+<p><br /> <i class="fas fa-angle-left"></i>&ensp;<i class="fas fa-angle-right"></i>&ensp;with  <i class="fas fa-heart" style="color:#fa1e0e;"></i>  by   <p style="font-family: 'Pacifico', cursive;font-size: 150%"><b><span style="color:#fa1e0e;font-weight:bold">{</span> Liju Daniel <span style="color:#fa1e0e;font-weight:bold">}</span></b></p></p><br />
 <a href="#" class="btn btn-default" role="button" style="border-radius: 100px;">
-  <span class="glyphicon glyphicon-hand-up	 "></span>   <b>Go back to Top</b>
+    <b><i class="fas fa-arrow-alt-circle-up"></i>&ensp;Go back to Top</b>
 </a>
 
 
