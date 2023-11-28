@@ -3,12 +3,15 @@
 <head>
   <title>Liju Daniel - My Personal Site</title>
   <link rel = "icon" href =
-"images/redme.png"
+"images/newme2-circle.png"
         type = "image/x-icon">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <script src="https://kit.fontawesome.com/87f63208cd.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,16 +40,16 @@
   body {
     font: 20px 'Open Sans', sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: #ffffff;
   }
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 {
-    background-color:#1e1e1e; /* black */
+    background-color:#d4f5ff; /* whoami color bg */
     color: #ffffff;
   }
   .bg-2 {
-    background-color:#000000; /* grey */
+    background-color:#001F3F; /* grey */
     color: #ffffff;
   }
   .bg-3 {
@@ -54,7 +57,7 @@
     color: #ffffff;
   }
   .bg-4 {
-    background-color: #141414; /* Black Gray */
+    background-color: #A1E9FF; /* Black Gray */
     color: #fff;
   }
   .container-fluid {
@@ -69,12 +72,18 @@
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    background-color: #000000; /* White */
-    color: #555555;
+    background-color: #001F3F; /* White */
+    color: rgb(255, 255, 255);
   }
-  .navbar-nav  li a:hover {
-    color: #f54c4c !important;
-  }
+  .navbar-nav li a {
+    color: #D4F5FF;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+    color: pink;
+}
+
   .fa {
     padding: 20px;
     font-size: 20px;
@@ -99,7 +108,10 @@
     background: #55ACEE;
     color: white;
   }
-
+  .fa-linkedin {
+    background: #0077B5; /* LinkedIn blue color */
+    color: white;
+}
   .fa-google {
     background: #EA4335;
     color: white;
@@ -118,12 +130,15 @@
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   }
-  p.title{
-    font-family: 'Open Sans', sans-serif;
+  p.title {
+    font-family: 'Ubuntu Mono', monospace;
     text-align: left;
     font-size: 200%;
     line-height: 1.6;
-  }
+    color: black;
+    font-weight: bold;
+}
+
 
   p.about{
     font-family: 'Ubuntu Mono', monospace;
@@ -138,15 +153,15 @@
 
   ::selection {
    background-color: #ffffff;
-  color: #fa1e0e;
+  color: #1e1e1e;
   }
   ::-moz-selection {
   background-color: #ffffff;
-  color: #fa1e0e;
+  color: #1e1e1e;
   }
   ::-webkit-selection {
   background-color: #ffffff;
-  color: #fa1e0e;
+  color: #1e1e1e;
   }
 
 .button{
@@ -240,14 +255,21 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #000000;
+  background: #001F3F;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #1e1e1e;
+  background-color: #D4F5FF;
   border-radius: 20px;
   border: 3px red;
 }
+.footer-message {
+            background-color: #001F3F; /* Blue background color */
+            color: #D4F5FF;
+            padding: 10px; /* Adjust padding as needed */
+            
+        }
+
 
   </style>
 </head>
@@ -257,20 +279,24 @@
 <nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="https://lijuudaniel.github.io/search/" style="font-family: 'Pacifico', cursive;font-size: 250%"><b><span style="color:#DC1936;font-weight:bold">{</span> Liju Daniel <span style="color:#DC1936;font-weight:bold">}</span></b></a>
-    </div>
+      <div class="navbar-brand-container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand nav-left" href=# style="font-family: 'Pacifico', cursive;font-size: 250%;color:#D4F5FF;">
+          <b><span style="color:#D4F5FF;font-weight:bold">{</span> Liju Daniel <span style="color:#D4F5FF;font-weight:bold">}</span></b>
+        </a>
+      </div>
+    </div>    
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#section1">whoami</a></li>
-        <li><a href="#section2">man -l me</a></li>
-
-        <li><a href="#section4">more contact.txt</a></li>
-        <li><a href="https://lijuudaniel.github.io/resume/">lynx resume.html</a></li>
+        
+        <li><a href="#section1"><span style="color:#D4F5FF;font-weight:bold">whoami</span></a></li>
+        <li><a href="#section2"><span style="color:#D4F5FF;font-weight:bold">man -l me</span></a></li>
+        <li><a href="#section4"><span style="color:#D4F5FF;font-weight:bold">more contact.txt</span></a></li>
+        <li><a href="https://lijuudaniel.github.io/resume/"><span style="color:#D4F5FF;font-weight:bold">lynx resume.html</span></a></li>
       </ul>
     </div>
   </div>
@@ -278,48 +304,61 @@
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center" id="section1">
-  <img src="images/redme.png" style="display:inline" alt="Liju" width="350" height="350" align="right">
-  <p class="title" ><b>Hey! I'm Liju Daniel.</b><br />
-    <span style="color:#cac7c0;font-weight:normal;font-size:70%">A Minimalist, Creative UI Designer and a Newbie to Coding Stuff.<br /> I am an ardent Web Designer and a Linux N00b🐧.<br />Apart from Tech, I love Food🍕 and Smartphones are ❤️.
-    <br />Check me out!<span class="emoji hourglass" role="img" aria-label="hourglass"></span><br /></span>
-
-<a href="https://lijuudaniel.github.io/search/" class="btn btn-default" style="border-radius: 100px;font-family: 'Ubuntu Mono', monospace;font-weight:bold">
-  <i class="fas fa-search"></i> About me
-</a>
-<a href="https://twitter.com/lijudaniel5" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
-    <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-    <a href="https://open.spotify.com/playlist/2UkrSUrObzqzqFVrJ4zMXZ?si=u-4Y8SUqTkq1-4hZQSFl0w&utm_source=copy-link" class="btn btn-default" target="_blank" style="border-radius: 100px;font-family: 'Ubuntu Mono', monospace; font-weight:bold">
-       <i class="fab fa-spotify"></i>&ensp;My Playlist
+  <img src="images/newmemain.png" style="display:inline" alt="Liju" width="400" height="400" align="right">
+  <p class="title">Hey! I'm Liju Daniel.<br /></p>
+    <!-- <span style="color:#333333;font-weight:normal;font-size:50%;margin-bottom: -10px;">I am a Computer Science graduate with a passion for leveraging technology to solve real-world challenges. Having gained valuable experience in the IT industry, I've honed my skills in system administration and troubleshooting. Beyond the tech world, I'm an avid cricket enthusiast, finding joy in the strategic nuances of the game. As a smartphone aficionado, I enjoy exploring the latest gadgets and staying updated on the ever-evolving world of mobile technology. Eager to contribute my IT expertise and technological curiosity to future endeavors.
+    <br />Check me out!<span class="emoji hourglass" role="img" aria-label="hourglass"></span><br /></span> -->
+    <p style="font-size: 110%; text-align: left; color: #333333;line-height: 2.3;font-family: 'Ubuntu Mono', monospace">
+      I am a Computer Science graduate with a passion for leveraging technology to solve real-world challenges. Having gained scant but valuable experience in the IT industry, I've honed my skills in Bash and Java. Beyond the tech world, I'm an avid cricket enthusiast, finding joy in the strategic nuances of the game. As a smartphone aficionado, I enjoy exploring the latest gadgets and staying updated on the ever-evolving world of mobile technology. Eager to contribute my IT expertise and technological curiosity to future endeavors.
+  </p>
+  <div class="text-left">
+    <a href="https://lijuudaniel.github.io/search/" class="btn btn-default" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold;background-color: #001F3F; color: white;">
+        <i class="fa-solid fa-earth-asia"></i>  Search
     </a>
-    <a href="mailto:lijudaniel73@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a>
+    <a href="https://twitter.com/lijudaniel5" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+    <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
+    <a href="https://open.spotify.com/playlist/5gMoBglfakkVuwkcmd2vQS?si=3bd3729879f44818" class="btn btn-default" target="_blank" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold; background-color: #001F3F; color: white;">
+      <i class="fab fa-spotify"></i>&ensp;My Playlist
+  </a>  
+    <a href="mailto:lijuudaniel@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a>
     <a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost" target="_blank" rel="noopener noreferrer"></a>
+    <a href="https://github.com/lijuudaniel" class="btn btn-default" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold;background-color: #001F3F; color: white;">
+      <i class="fa-brands fa-github"></i>   GitHub
+  </a>
+</div>
+
 
 </div>
 
+<!-- <i class="fa-solid fa-terminal"></i>fa-brands fa-square-github -->
+
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center" id="section2">
-  <h3 class="margin"><b>About Me&ensp;<i class="fas fa-address-card" style="color:#fa1e0e;"></i></b></h3>
-<p class="about"><span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> whoami<br />Liju Daniel<br />
-  <span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> thissite --help<br />
-  This is my personal website with very basic info about me. I've made this About me section to look
-  like a Linux Terminal and that's why it is all text here😂. This is completely a non-JavaScript site so tried my best
-  to make this site look better. Will try to learn more stuff and make this place a better looking one in the future🤍.<br />
-<span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> more about_me.txt<br />
-Pursuing My Bachelor Of Engineering degree in Computer Science at SKCET, Coimbatore. I am a Pro Wrestling Fanatic and an Audiophile.<br />I love food 🍕 and Gordon Ramsay is 👑. To check out my CV, visit: <a href="https://lijuudaniel.github.io/resume/" style="color: white">https://lijuudaniel.github.io/resume/</a><br />
-<span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> cat skills.txt<br />
-Flutter <span style="color:#fa1e0e;font-weight:bold">☆☆</span><br />Adobe XD <span style="color:#fa1e0e;font-weight:bold">☆☆☆</span><br />HTML,CSS and Bootstrap <span style="color:#fa1e0e;font-weight:bold">☆☆☆</span><br />Python and C <span style="color:#fa1e0e;font-weight:bold">☆☆☆</span><br />
-<span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> cat hobbies.txt<br />
-⭐App Development<br />⭐Tech Blogging<br />⭐Playing with random Linux Distros<br />
-<span style="color:#fa1e0e;font-weight:bold">root@liju:~$</span> cat interests.txt<br />
-🎮Video Games<br />🏏Cricket<br />🧘🏾‍♂️Mindfulness<br />👨🏾‍💻Network Hacking<br /><br />
+  <h3 class="margin"><b style="font-family: 'Ubuntu Mono', monospace;color:#D4F5FF;">About Me&ensp;<i class="fa-regular fa-face-smile fa-spin" style="color:#D4F5FF;"></i></b></h3>
+<p class="about"><span style="color:#ff0000;">root@liju:~$</span> whoami<br />Liju Daniel<br />
+  <span style="color:#ff0000;">root@liju:~$</span> thissite --help<br />
+  This is my personal website with some info about me. This is a linux terminal inspired looking section of
+  this site. I know this site looks noob but this site uses no JavScript at all so I tried my best
+  to make this site look better with the basic stuff I know. I will try to learn more stuff (which I am lazy to do rn) and make this place a better looking one in the future.<br />
+  <span style="color:#ff0000;">root@liju:~$</span> cd All-About-Me<br />
+  <span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> ls<br />
+  <span style="color:#36d22d;">about_me.txt  skills.txt  interests_and_likes.txt</span><br />
 
+<span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> more about_me.txt<br />
+Completed My Bachelor Of Engineering degree in Computer Science at SKCET, Coimbatore. I am a Pro Wrestling Fanatic and an Audiophile. I love food and smartphones. I can keep talking about all my favorite stuff all day long. If you wanna know the technical side of me, please visit: <a href="https://lijuudaniel.github.io/resume/" style="color: white">https://lijuudaniel.github.io/resume/</a><br />
 
+<span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> cat skills.txt<br />
+I wish I had skills lol but I can google and chatgpt stuff very well if you consider that as a skill and yes you can find those other techy techy skills on my resume.<br />
+
+<span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> cat interests_and_likes.txt<br />
+🏏 Cricket<br />
+🤼‍♂️ Pro Wrestling<br>
+🎮 Gaming<br />
+🎧 Music<br />
+🕺 Dancing<br />
 
 </p>
 
-<a href="#section4" class="btn btn-default" style="border-radius: 100px;">
-  <i class="fas fa-address-card"></i><b>&ensp;Contact Me</b>
-</a>
 </div>
 
 <!--THIRD CONTAINER-->
@@ -327,27 +366,38 @@ Flutter <span style="color:#fa1e0e;font-weight:bold">☆☆</span><br />Adobe XD
 <!-- Footer -->
 
 <footer class="container-fluid bg-4 text-center" id="section4">
+ 
+  <h3 style="font-family: 'Ubuntu Mono', monospace;color:#001F3F;"><b>&emsp;Connect with me&ensp;<i class="fa-solid fa-envelope fa-flip"></i></b></h3><br />
 
-  <h2 style="font-family: 'Open Sans', sans-serif;"><b>&emsp;Wanna Contact?&ensp;<i class="fas fa-phone-alt" style="color:#fa1e0e;"></i></b></h2><br />
-  <a href="tel:8870606935" class="btn btn-default" role="button" style="border-radius: 100px;"><b><i class="fas fa-phone-alt"></i>&ensp;Make a Call</b></a>&ensp;
+  <!-- <a href="tel:8870606935" class="btn btn-default" role="button" style="border-radius: 100px;"><b><i class="fas fa-phone-alt"></i>&ensp;Make a Call</b></a>&ensp;
   <a href="https://www.mediafire.com/file/8lobcpm4gnr03yq/My+Resume.pdf/file" class="btn btn-default" target="_blank" role="button" style="border-radius: 100px;">
     <b><i class="fas fa-download"></i>&ensp;My Resume</b></a>
 
-  <br /><br />
+  <br /><br /> -->
 
 <a href="https://www.facebook.com/people/Liju-Daniel/100008322639223/" class="fa fa-facebook" target="_blank" rel="noopener noreferrer"></a>
-<a href="https://twitter.com/lijudaniel5" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
-<a href="mailto:lijudaniel73@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a>
-<a href="https://www.youtube.com/channel/UCDGvHvNHyxt6-cuCXAmTOxw/videos" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a>
+<!-- <a href="https://twitter.com/lijudaniel5" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a> -->
+<a href="mailto:lijuudaniel@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a>
+<!-- <a href="https://www.youtube.com/channel/UCDGvHvNHyxt6-cuCXAmTOxw/videos" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a> -->
 <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
-<a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost" target="_blank" rel="noopener noreferrer"></a><br />
-<p><br /> <i class="fas fa-angle-left"></i>&ensp;<i class="fas fa-angle-right"></i>&ensp;with  <i class="fas fa-heart" style="color:#fa1e0e;"></i>  by   <p style="font-family: 'Pacifico', cursive;font-size: 150%"><b><span style="color:#fa1e0e;font-weight:bold">{</span> Liju Daniel <span style="color:#fa1e0e;font-weight:bold">}</span></b></p></p><br />
-<a href="#" class="btn btn-default" role="button" style="border-radius: 100px;">
-    <b><i class="fas fa-arrow-alt-circle-up"></i>&ensp;Go back to Top</b>
+<a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://in.linkedin.com/in/lijuudaniel" class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a><br />
+<p style="color:#001F3F;"><br /> <i class="fa-solid fa-code"></i>&ensp;with  <i class="fas fa-heart" style="color:#fa1e0e;"></i>  by   
+<p style="font-family: 'Pacifico', cursive;font-size: 150%"><b><span style="color:#001F3F;font-weight:bold">{</span> 
+  <span style="color:#001F3F;;font-weight:bold">Liju Daniel</span> <span style="color:#001F3F;;font-weight:bold">}</span></b></p></p><br />
+<a href="#" class="btn btn-default" role="button" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold;background-color: #001F3F; color: white;">
+    <i class="fa-solid fa-up-long fa-bounce"></i>&ensp;<b >Go back to Top</b>
 </a>
 
 
 </footer>
-
+<div class="footer-message">
+  <p style="font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  margin: 0;font-size: 20px;">This site was built with:<br>
+  <i class="fa-brands fa-html5" style="font-size: 23px;"></i>
+  <i class="fa-brands fa-css3-alt" style="font-size: 23px;"></i>
+  <i class="fa-brands fa-bootstrap" style="font-size: 23px;"></i></p>
+</div>
 </body>
 </html>
