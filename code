@@ -1,0 +1,20 @@
+<!-- <a href="https://lijuudaniel.github.io/search/" class="btn btn-default" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold;background-color: #001F3F; color: white;">
+        <i class="fa-solid fa-earth-asia"></i>  Search
+    </a> -->
+    <a href="https://github.com/lijuudaniel" class="btn btn-default" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold;background-color: #001F3F; color: white;">
+      <i class="fa-brands fa-github"></i>   GitHub
+  </a>
+  <a href="https://twitter.com/lijudaniel5" class="fa fa-twitter" target="_blank" rel="noopener noreferrer" style="background: #55ACEE; color: white;"></a>
+  <a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer" style="background: #55ACEE; color: white;"></a>
+    <a href="https://open.spotify.com/playlist/5gMoBglfakkVuwkcmd2vQS?si=3bd3729879f44818" class="btn btn-default" target="_blank" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold; background-color: #001F3F; color: white;">
+      <i class="fab fa-spotify"></i>&ensp;My Playlist
+  </a>  
+    <a href="mailto:lijuudaniel@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer" style="background: #EA4335; color: white;"></a>
+    <a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost" target="_blank" rel="noopener noreferrer" style="background: #55ACEE; color: white;"></a>
+    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color: #000; color: #fff;">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+    <!-- <div class="circle-button">
+      <i class="fa-brands fa-x-twitter"></i>
+  </div> -->
+  
