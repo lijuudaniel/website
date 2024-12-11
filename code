@@ -18,3 +18,467 @@
       <i class="fa-brands fa-x-twitter"></i>
   </div> -->
   
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Liju Daniel - My Personal Site</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel = "icon" href ="images/newmemain.png" type = "image/png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="https://kit.fontawesome.com/87f63208cd.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font: 20px 'Open Sans', sans-serif;
+    line-height: 1.8;
+    color: #ffffff;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+    background-color:#d4f5ff; /* whoami color bg */
+    color: #ffffff;
+  }
+  .bg-2 {
+    background-color:#001F3F; /* grey */
+    color: #ffffff;
+  }
+  .bg-3 {
+    background-color: #1e1e1e; /* White */
+    color: #ffffff;
+  }
+  .bg-4 {
+    background-color: #A1E9FF; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #001F3F; /* White */
+    color: rgb(255, 255, 255);
+  }
+  .navbar-nav li a {
+    color: #D4F5FF;
+    font-weight: bold;
+}
+
+.navbar-nav li a:hover {
+    color: pink;
+}
+.navbar-toggle .icon-bar {
+  background-color: #A1E9FF; /* Blue color */
+}
+
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+  background-color: #A1E9FF; /* Change to your desired background color */
+}
+
+.navbar-toggle.collapsed .icon-bar {
+  background-color: #A1E9FF; /* Blue color */
+}
+
+  /* .fa {
+    padding: 20px;
+    font-size: 20px;
+    height: 60px;
+    width: 62px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+      text-decoration: none;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #0077B5; 
+    color: white;
+}
+  .fa-google {
+    background: #EA4335;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #d72f80;
+    color: white;
+  }
+  .fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  } */
+  p.title {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: left;
+    font-size: 200%;
+    line-height: 1.6;
+    color: black;
+    font-weight: bold;
+}
+
+
+  p.about{
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: left;
+    font-weight:normal
+  }
+  p.links{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    font-weight:bold;
+  }
+
+  ::selection {
+   background-color: #ffffff;
+  color: #1e1e1e;
+  }
+  ::-moz-selection {
+  background-color: #ffffff;
+  color: #1e1e1e;
+  }
+  ::-webkit-selection {
+  background-color: #ffffff;
+  color: #1e1e1e;
+  }
+
+.button{
+  font-family:"Courier New";
+}
+.hearts::after {
+    content: '❤️';
+    animation-name: hearts;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.hourglass::after {
+    content: '⏳';
+    --emoji: '⌛️';
+    animation-name: twoFrames;
+    animation-duration: 1.2s;
+    animation-iteration-count: infinite;
+}
+.inbox::after {
+    content: '📥';
+    --emoji: '📤';
+    animation-name: twoFrames;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.wave::after {
+    content: '📲‍';
+    --emoji: '‍📱';
+    animation-name: twoFrames;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes twoFrames {
+    50% {
+        content: var(--emoji);
+    }
+}
+
+@keyframes threeFrames {
+    33.333% {
+        content: var(--emoji-1);
+    }
+
+    66.666% {
+        content: var(--emoji-2);
+    }
+}
+@keyframes hearts {
+    16.666% {
+        content: '🖤';
+    }
+
+    33.333% {
+        content: '💛';
+    }
+
+    50% {
+        content: '💚';
+    }
+
+    66.666% {
+        content: '💙';
+    }
+
+    83.333% {
+        content: '💜';
+    }
+}
+.scroll4::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scroll4::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 20px;
+}
+
+.scroll4::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #d4f5ff #001F3F;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #001F3F;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #D4F5FF;
+  border-radius: 20px;
+  border: 3px red;
+}
+.footer-message {
+            background-color: #001F3F; /* Blue background color */
+            color: #D4F5FF;
+            padding: 10px; /* Adjust padding as needed */
+            
+        }
+        /* .circle-button {
+    width: 40px; 
+    height: 40px; 
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /
+}
+
+.circle-button i {
+    color: #1DA1F2; 
+    font-size: 20px;
+} */
+
+
+
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <div class="navbar-brand-container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar" style="background-color: #A1E9FF;"></span>
+          <span class="icon-bar" style="background-color: #A1E9FF;"></span>
+          <span class="icon-bar" style="background-color: #A1E9FF;"></span>
+        </button>        
+        <a class="navbar-brand nav-left" href=# style="font-family: 'Pacifico', cursive;font-size: 250%;color:#D4F5FF;">
+          <b><span style="color:#90caee;font-weight:bold">{</span> Liju Daniel <span style="color:#90caee;font-weight:bold">}</span></b>
+        </a>
+      </div>
+    </div>    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right" style="margin-left: 0px;">
+        
+        <li><a href="#section1"><span style="color:#D4F5FF;font-weight:bold">whoami</span></a></li>
+        <li><a href="#section2"><span style="color:#D4F5FF;font-weight:bold">man -l me</span></a></li>
+        <li><a href="#section4"><span style="color:#D4F5FF;font-weight:bold">more contact.txt</span></a></li>
+        <li><a href="https://lijuudaniel.github.io/resume/"><span style="color:#D4F5FF;font-weight:bold">lynx resume.html</span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center" id="section1">
+  <img src="images/newmemain.jpg" style="display:inline; margin-right: 0px;margin-left: 0px;" alt="Liju" width="350" height="350" align="right">
+
+  <p class="title">Hey! I'm Liju Daniel.<br /></p>
+    <!-- <span style="color:#333333;font-weight:normal;font-size:50%;margin-bottom: -10px;">I am a Computer Science graduate with a passion for leveraging technology to solve real-world challenges. Having gained valuable experience in the IT industry, I've honed my skills in system administration and troubleshooting. Beyond the tech world, I'm an avid cricket enthusiast, finding joy in the strategic nuances of the game. As a smartphone aficionado, I enjoy exploring the latest gadgets and staying updated on the ever-evolving world of mobile technology. Eager to contribute my IT expertise and technological curiosity to future endeavors.
+    <br />Check me out!<span class="emoji hourglass" role="img" aria-label="hourglass"></span><br /></span> -->
+    <p style="font-size: 110%; text-align: left; color: #333333;line-height: 2.3;font-family: 'Ubuntu Mono', monospace">
+      I am a Computer Science graduate with a passion for leveraging technology to solve real-world challenges. Having gained scant but valuable experience in the IT industry, I've honed my skills in Bash and Java. Beyond the tech world, I'm an avid cricket enthusiast, finding joy in the strategic nuances of the game. As a smartphone aficionado, I enjoy exploring the latest gadgets and staying updated on the ever-evolving world of mobile technology. Eager to contribute my IT expertise and technological curiosity to future endeavors.
+      <br />
+  </p>
+  <div class="text-left">
+    <!-- <a href="https://twitter.com/lijuudaniel" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color: #000; color: #fff;">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a> -->
+    <a href="https://www.instagram.com/lijuudaniel/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background: linear-gradient(150deg, #833ab4, #fd1d1d, #fcb045); color: #fff;">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+    <a href="https://in.linkedin.com/in/lijuudaniel" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color:  #0077b5; color: #fff;">
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a href="https://github.com/lijuudaniel" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color: #24292E; color: #fff;">
+      <i class="fa-brands fa-github"></i>
+    </a>
+    <a href="mailto:lijuudaniel@gmail.com" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%;background:#c71610; color: #fff;">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+    
+</div>
+
+
+</div>
+
+<!-- <i class="fa-solid fa-terminal"></i>fa-brands fa-square-github -->
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center" id="section2">
+  <h3 class="margin"><b style="font-family: 'Ubuntu Mono', monospace;color:#D4F5FF;">About Me&ensp;<i class="fa-regular fa-face-smile fa-spin" style="color:#D4F5FF;"></i></b></h3>
+<p class="about"><span style="color:#ff0000;">root@liju:~$</span> whoami<br />Liju Daniel<br />
+  <span style="color:#ff0000;">root@liju:~$</span> thissite --help<br />
+  This is my personal website with info about me. This is a linux terminal inspired looking section of
+  this site. I know this site looks noob but this site uses no JavaScript at all so I tried my best
+  to make this site look better with the basic stuff I know. I will try to learn more stuff (which I am lazy to do rn) and make this place a better looking one in the future.<br />
+  <span style="color:#ff0000;">root@liju:~$</span> cd All-About-Me<br />
+  <span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> ls<br />
+  <span style="color:#36d22d;">about_me.txt  skills.txt  interests_and_likes.txt</span><br />
+
+<span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> more about_me.txt<br />
+Completed My Bachelor Of Engineering degree in Computer Science at SKCET, Coimbatore. I am a Pro Wrestling Fanatic and an Audiophile. I love food and smartphones. I can keep talking about all these favorite stuff all day long. If you wanna know the technical side of me, please visit: <a href="https://lijuudaniel.github.io/resume/" style="color: white">https://lijuudaniel.github.io/resume/</a><br />
+
+<span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> cat skills.txt<br />
+I wish I had skills lol but I can google and chatgpt stuff very well if you consider that as a skill and yes you can find those other techy techy skills on my resume.<br />
+
+<span style="color:#ff0000;">root@liju:<span style="color:#36d22d;">~/All-About-Me$</span></span> cat interests_and_likes.txt<br />
+🏏 Cricket<br />
+🤼‍♂️ Pro Wrestling<br>
+🎮 Gaming<br />
+🎧 Music<br />
+🕺 Dancing<br />
+
+</p>
+
+</div>
+
+<!--THIRD CONTAINER-->
+
+<!-- Footer -->
+
+<footer class="container-fluid bg-4 text-center" id="section4">
+ 
+ <div style="text-align: center;">
+  <h3 style="font-family: 'Ubuntu Mono', monospace; color: #001F3F;"><b>&emsp;Shoot me a message&ensp;<i class="fa-solid fa-envelope-open-text fa-shake"></i></b></h3>
+</div>
+<br>
+
+  <!-- <a href="tel:" class="btn btn-default" role="button" style="border-radius: 100px;"><b><i class="fas fa-phone-alt"></i>&ensp;Make a Call</b></a>&ensp;
+  <a href="https://www.mediafire.com/file/8lobcpm4gnr03yq/My+Resume.pdf/file" class="btn btn-default" target="_blank" role="button" style="border-radius: 100px;">
+    <b><i class="fas fa-download"></i>&ensp;My Resume</b></a>
+
+  <br /><br /> -->
+
+<!-- <a href="https://www.facebook.com/people/Liju-Daniel/100008322639223/" class="fa fa-facebook" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://twitter.com/lijudaniel5" class="fa fa-twitter" target="_blank" rel="noopener noreferrer"></a>
+<a href="mailto:lijuudaniel@gmail.com" class="fa fa-google" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://www.youtube.com/channel/UCDGvHvNHyxt6-cuCXAmTOxw/videos" class="fa fa-youtube" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://z-p42.www.instagram.com/lijuudaniel/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://www.snapchat.com/add/liju_daniel" class="fa fa-snapchat-ghost" target="_blank" rel="noopener noreferrer"></a>
+<a href="https://in.linkedin.com/in/lijuudaniel" class="fa fa-linkedin" target="_blank" rel="noopener noreferrer"></a><br /> -->
+<a href="https://twitter.com/lijuudaniel" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color: #000; color: #fff;">
+  <i class="fa-brands fa-x-twitter"></i>
+</a>
+<a href="https://www.facebook.com/people/Liju-Daniel/100008322639223/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color: #0866ff; color: #fff;">
+  <i class="fa-brands fa-facebook-f"></i>
+</a>
+<a href="mailto:lijuudaniel@gmail.com" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color: #c71610; color: #fff;">
+  <i class="fa-brands fa-google"></i>
+</a>
+<a href="https://www.snapchat.com/add/liju_daniel" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%;background: #fffc00;color: white;text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+  <i class="fa fa-snapchat-ghost" style="color: #fff;"></i>
+</a>
+<a href="https://in.linkedin.com/in/lijuudaniel" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background-color:  #0077b5; color: #fff;">
+  <i class="fa-brands fa-linkedin-in"></i>
+</a>
+<a href="https://www.instagram.com/lijuudaniel/" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background: linear-gradient(150deg, #833ab4, #fd1d1d, #fcb045); color: #fff;">
+  <i class="fa-brands fa-instagram"></i>
+</a>
+<a href="https://discordapp.com/users/595226815119884309" target="_blank" rel="noopener noreferrer" style="display: inline-block; padding: 12px; font-size: 20px; height: 60px; width: 62px; text-align: center; text-decoration: none; margin: 5px 2px; border-radius: 50%; background: #5865F2; color: #fff;">
+  <i class="fa-brands fa-discord" style="color: #ffffff;"></i>
+</a>
+
+<p style="color:#001F3F;"><br /> <i class="fa-solid fa-code"></i>&ensp;with  <i class="fas fa-heart" style="color:#fa1e0e;"></i>  by   
+<p style="font-family: 'Pacifico', cursive;font-size: 150%"><b><span style="color:#001F3F;font-weight:bold">{</span> 
+  <span style="color:#001F3F;font-weight:bold">Liju Daniel</span> <span style="color:#001F3F;;font-weight:bold">}</span></b></p></p><br />
+<a href="#" class="btn btn-default" role="button" style="border-radius: 100px; font-family: 'Ubuntu Mono', monospace; font-weight:bold;background-color: #001F3F; color: white;">
+    <i class="fa-solid fa-up-long fa-bounce"></i>&ensp;<b >Go back to the top</b>
+</a>
+
+
+
+</footer>
+<div class="footer-message">
+  <p style="font-family: 'Ubuntu Mono', monospace;
+  text-align: center;
+  margin: 0;font-size: 20px;">This site was built with:<br>
+  <i class="fa-brands fa-html5" style="font-size: 23px;"></i>
+  <i class="fa-brands fa-css3-alt" style="font-size: 23px;"></i>
+  <i class="fa-brands fa-bootstrap" style="font-size: 23px;"></i></p>
+</div>
+</body>
+</html>
